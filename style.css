@@ -103,7 +103,7 @@ a:visited{
   text-decoration: none;
   color:black;
 }
-sx
+
 .container1 {
   display: flex;
   flex-wrap: wrap;
@@ -149,8 +149,8 @@ sx
 .stuff{
   color:black;
   font-size:70px;
-  padding-top:120px;
-  padding-left:150px;
+  padding-top:150px;
+  padding-left: 140px;
 }
 
 .gridbelow{
