@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Slab&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Concert+One&display=swap');
+
+body{
+  margin: 0;
+  padding: 2vmin 0vmin 2vmin 0vmin;
+  background-color: white;
+  font-family: Josefin Slab, sans-serif;
+  font-size: 4rem;
+  color: #fff;
+}
+
+.mainGrid{
+  display:grid;
+  grid-template-columns: 5% 45% 45% 5%;
+  grid-template-rows: 700px;
+  grid-column-gap: 0vmin;
+  margin-top: 6vmin;
+}
+
+.intro{
+  background-image: url("plus.jpg");
+  background-size:contain;
+  background-repeat: no-repeat;
+  opacity:20%
+  color:#eee;
+}
+
+.hi{
+  background-image: url("minus.jpg");
+  background-size:contain;
+  background-repeat: no-repeat;
+  color:#000;
+}
+
+.hi:hover .overlay1{
+  opacity:1;
+}
+
+.intro:hover .overlay{
+  opacity: 1;
+}
+/* i h8 this hover stuff */
+.content{
+  color:white;
+  transform: translate(32%,300%);
+  text-transform: uppercase;
+  font-size: 100px;
+}
+.overlay{
+  position:center;
+  top:-50% -50%;
+  transition: .5s ease;
+  background:gray;
+  opacity:0;
+  height:99%
+}
+
+.content1{
+  color:black;
+  transform: translate(40%,300%);
+  text-transform: uppercase;
+  font-size: 100px;
+}
+.overlay1{
+  position:center;
+  top:-50% -50%;
+  transition: .5s ease;
+  background:gray;
+  opacity:0;
+  height:99%
+}
+
+.img{
+  display:block;
+  margin-left: auto;
+  margin-right:auto;
+  width:450px;
+  border:10px solid #424242;
+}
+
+.mainMenu{
+  display:flex;
+  justify-content: space-evenly;
+  color: #eee;
+  padding-top: 1vmin;
+  padding-bottom: 0vmin;
+  padding-left:15vmin;
+}
+
+.icon img{
+  width: 50px;
+}
+a:link{
+  text-decoration: none;
+}
+
+.contact img{
+  width:50px;
+}
+
+a:visited{
+  text-decoration: none;
+  color:black;
+}
+
+.container1 {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 5px;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.col {
+  flex: 25%;
+  max-width: 15%;
+  padding: 0 4px;
+}
+
+.col img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+.portfolio{
+  background-color: white;
+}
+
+
+.grid{
+  display:grid;
+  grid-template-columns: 10% 40% 10% 5%;
+  grid-template-rows: 700px;
+  grid-column-gap: 0vmin;
+  margin-top: 10vmin;
+  margin-left:10vmin;
+}
+
+.aboutme{
+  color:black;
+  transform:translate(50% 100%);
+  text-align: center;
+  padding-right: 20px;
+  padding-top: 300px;
+}
+
+.stuff{
+  color:black;
+  font-size:70px;
+  padding-top:150px;
+}
+
+.gridbelow{
+  grid-template-columns: 10% 40% 10% 5%;
+}
+
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 2px solid #000;
+  border-radius: 10px;
+  box-sizing: border-box;
+  margin-top: 10px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #fff;
+  color: black;
+  border-radius: 10px;
+  border:none;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #000;
+  padding: 20px;
+  margin-top: 200px;
+}
