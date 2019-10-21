@@ -43,7 +43,7 @@ body{
 /* i h8 this hover stuff */
 .content{
   color:white;
-  transform: translate(32%,300%);
+  transform: translate(27%,250%);
   text-transform: uppercase;
   font-size: 100px;
 }
@@ -53,12 +53,12 @@ body{
   transition: .5s ease;
   background:gray;
   opacity:0;
-  height:99%
+  height:78%
 }
 
 .content1{
   color:black;
-  transform: translate(40%,300%);
+  transform: translate(40%,250%);
   text-transform: uppercase;
   font-size: 100px;
 }
@@ -68,7 +68,7 @@ body{
   transition: .5s ease;
   background:gray;
   opacity:0;
-  height:99%
+  height:78%
 }
 
 .img{
