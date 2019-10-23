@@ -17,7 +17,7 @@ body{
 .mainGrid{
   display:grid;
   grid-template-columns: 5% 45% 45% 5%;
-  grid-template-rows: 700px;
+  grid-template-rows: 650px;
   grid-column-gap: 0vmin;
   margin-top: 0vmin;
 }
@@ -57,7 +57,7 @@ body{
   transition: .5s ease;
   background:gray;
   opacity:0;
-  height:79%
+  height:100%
 }
 
 .content1{
@@ -72,7 +72,7 @@ body{
   transition: .5s ease;
   background:gray;
   opacity:0;
-  height:79%
+  height:100%
 }
 
 .img{
@@ -88,7 +88,7 @@ body{
   justify-content: space-evenly;
   color: #eee;
   padding-top: 1vmin;
-  padding-bottom:8vmin;
+  padding-bottom:5vmin;
   padding-left:15vmin;
 
 }
@@ -123,7 +123,6 @@ a:visited{
   flex-wrap: wrap;
   padding: 0 5px;
   justify-content: center;
-  margin-top: 50px;
 }
 
 .col {
