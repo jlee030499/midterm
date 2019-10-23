@@ -22,6 +22,10 @@ body{
   margin-top: 0vmin;
 }
 
+.bottom{
+  display:grid;
+  grid-template-rows:10px;
+}
 .intro{
   background-image: url("plus.jpg");
   background-size:contain;
