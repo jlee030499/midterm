@@ -97,6 +97,11 @@ body{
   padding-right:50px;
 }
 
+.port{
+  padding-left: 50px;
+  padding-right:50px;
+}
+
 .icon img{
   width: 50px;
 }
@@ -105,7 +110,7 @@ a:link{
 }
 
 .contact img{
-  width:30px;
+  width:20px;
 }
 
 a:visited{
@@ -145,11 +150,11 @@ a:visited{
 
 .grid{
   display:grid;
-  grid-template-columns: 10% 40% 10% 5%;
-  grid-template-rows: 700px;
+  grid-template-columns: 20% 50% 20%;
+  grid-template-rows: 500px;
   grid-column-gap: 0vmin;
-  margin-top: 10vmin;
-  margin-left:10vmin;
+  margin-top: 4vmin;
+  margin-left:18vmin;
 }
 
 .aboutme{
@@ -162,9 +167,9 @@ a:visited{
 
 .stuff{
   color:black;
-  font-size:70px;
-  padding-top:1vmin;;
-  padding-left: 140px;
+  font-size:50px;
+  padding-top:200px;
+  padding-left: 2vmin;
 }
 
 .gridbelow{
